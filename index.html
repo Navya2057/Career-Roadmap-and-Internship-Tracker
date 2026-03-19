@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Career Roadmap & Internship Tracker</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>🚀 AI Career Roadmap & Internship Tracker</header>
+
+<div class="container">
+
+  <div class="card">
+    <h3>📌 Career Roadmap</h3>
+    <input type="text" id="roadmapInput" placeholder="Enter skill or topic">
+    <button id="addRoadmapBtn">Add</button>
+    <div id="roadmapList"></div>
+  </div>
+
+  <div class="card">
+    <h3>💼 Internship Tracker</h3>
+    <input type="text" id="company" placeholder="Company Name">
+    <select id="status">
+      <option>Applied</option>
+      <option>Interview</option>
+      <option>Rejected</option>
+      <option>Selected</option>
+    </select>
+    <button id="addInternshipBtn">Add</button>
+    <div id="internshipList"></div>
+  </div>
+
+  <div class="card">
+    <h3>📊 Progress Tracker</h3>
+    <div class="progress-bar">
+      <div class="progress" id="progress"></div>
+    </div>
+    <p id="progressText">0% Completed</p>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
